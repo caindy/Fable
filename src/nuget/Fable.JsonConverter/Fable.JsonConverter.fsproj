@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Fable.JsonConverter</RootNamespace>
     <AssemblyName>Fable.JsonConverter</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>Fable.JsonConverter</Name>

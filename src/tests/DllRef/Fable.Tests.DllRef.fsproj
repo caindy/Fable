@@ -10,7 +10,7 @@
     <ProjectGuid>5f2cbbd5-65dd-4d02-95f7-c058e97c7c79</ProjectGuid>
     <ProjectType />
     <OutputType>Library</OutputType>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <AutoGenerateBindingRedirects />
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>

@@ -90,6 +90,7 @@ module Util =
             yield FscHelper.Out (Path.Combine(outDir, dllFile))
             yield FscHelper.Target FscHelper.TargetType.Library
             yield! symbols |> List.map FscHelper.Define
+            yield FscHelper.Lib [@"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\"]
         ]
         FscHelper.compile opts [fsxPath]
         |> function 0 -> () | _ -> failwithf "Cannot compile %s" fsxPath
